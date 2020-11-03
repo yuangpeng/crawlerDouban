@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3564fec9-dbf9-40ec-b7b7-09bfbf8435ae" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="b09932d0-bc59-4e3a-aad8-4cbd6d514c61" />
+  <component name="ProjectId" id="1jgDn54eiBZwSmY6kXS8BkavW59" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Douban" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="crawlerDouban" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Douban.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Douban" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3564fec9-dbf9-40ec-b7b7-09bfbf8435ae" name="Default Changelist" comment="" />
+      <created>1604217004946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604217004946</updated>
+      <workItem from="1604217006014" duration="628000" />
+      <workItem from="1604219586838" duration="4491000" />
+      <workItem from="1604233353631" duration="2891000" />
+      <workItem from="1604245045370" duration="2536000" />
+      <workItem from="1604278294559" duration="944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="532" y="271" key="FileChooserDialogImpl" timestamp="1604245397704">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state x="532" y="271" key="FileChooserDialogImpl/0.30.1500.970@0.30.1500.970" timestamp="1604245397704" />
+    <state width="2005" height="379" key="GridCell.Tab.0.bottom" timestamp="1604279310349">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.0.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1604279310349" />
+    <state width="1458" height="320" key="GridCell.Tab.0.bottom/0.30.1500.970@0.30.1500.970" timestamp="1604247008704" />
+    <state width="2005" height="379" key="GridCell.Tab.0.center" timestamp="1604279310349">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.0.center/0.0.2048.1122@0.0.2048.1122" timestamp="1604279310349" />
+    <state width="1458" height="320" key="GridCell.Tab.0.center/0.30.1500.970@0.30.1500.970" timestamp="1604247008704" />
+    <state width="2005" height="379" key="GridCell.Tab.0.left" timestamp="1604279310349">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.0.left/0.0.2048.1122@0.0.2048.1122" timestamp="1604279310349" />
+    <state width="1458" height="320" key="GridCell.Tab.0.left/0.30.1500.970@0.30.1500.970" timestamp="1604247008704" />
+    <state width="2005" height="379" key="GridCell.Tab.0.right" timestamp="1604279310349">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.0.right/0.0.2048.1122@0.0.2048.1122" timestamp="1604279310349" />
+    <state width="1458" height="320" key="GridCell.Tab.0.right/0.30.1500.970@0.30.1500.970" timestamp="1604247008704" />
+    <state width="2005" height="379" key="GridCell.Tab.1.bottom" timestamp="1604279310350">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.1.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1604279310350" />
+    <state width="1458" height="320" key="GridCell.Tab.1.bottom/0.30.1500.970@0.30.1500.970" timestamp="1604247015767" />
+    <state width="2005" height="379" key="GridCell.Tab.1.center" timestamp="1604279310350">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.1.center/0.0.2048.1122@0.0.2048.1122" timestamp="1604279310350" />
+    <state width="1458" height="320" key="GridCell.Tab.1.center/0.30.1500.970@0.30.1500.970" timestamp="1604247015767" />
+    <state width="2005" height="379" key="GridCell.Tab.1.left" timestamp="1604279310349">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.1.left/0.0.2048.1122@0.0.2048.1122" timestamp="1604279310349" />
+    <state width="1458" height="320" key="GridCell.Tab.1.left/0.30.1500.970@0.30.1500.970" timestamp="1604247015766" />
+    <state width="2005" height="379" key="GridCell.Tab.1.right" timestamp="1604279310350">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.1.right/0.0.2048.1122@0.0.2048.1122" timestamp="1604279310350" />
+    <state width="1458" height="320" key="GridCell.Tab.1.right/0.30.1500.970@0.30.1500.970" timestamp="1604247015767" />
+    <state x="299" y="171" key="SettingsEditor" timestamp="1604245083032">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state x="526" y="206" key="SettingsEditor/0.0.2048.1122@0.0.2048.1122" timestamp="1604221686051" />
+    <state x="299" y="171" key="SettingsEditor/0.30.1500.970@0.30.1500.970" timestamp="1604245083032" />
+    <state width="1033" height="568" key="XDebugger.FullValuePopup" timestamp="1604279304445">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="1033" height="568" key="XDebugger.FullValuePopup/0.0.2048.1122@0.0.2048.1122" timestamp="1604279304445" />
+    <state width="756" height="491" key="XDebugger.FullValuePopup/0.30.1500.970@0.30.1500.970" timestamp="1604247024574" />
+    <state x="1198" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1604224077909">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="1198" y="262" width="672" height="678" key="search.everywhere.popup/0.0.2048.1122@0.0.2048.1122" timestamp="1604224077909" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Douban.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/crawlerDouban$Douban.coverage" NAME="Douban Coverage Results" MODIFIED="1604279175516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

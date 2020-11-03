@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3564fec9-dbf9-40ec-b7b7-09bfbf8435ae" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="ea241fa2-6363-4745-822a-3d07fb813baf" />
+  <component name="ProjectId" id="1jgDn54eiBZwSmY6kXS8BkavW59" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../python_projects/introCS/shared/stdlib-python" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.Douban">
+    <configuration name="Douban-Bronkape-Desktop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="crawlerDouban" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Douban-Bronkape-Desktop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Douban" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="crawlerDouban" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Douban.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Douban" />
+        <item itemvalue="Python.Douban-Bronkape-Desktop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3564fec9-dbf9-40ec-b7b7-09bfbf8435ae" name="Default Changelist" comment="" />
+      <created>1604217004946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604217004946</updated>
+      <workItem from="1604217006014" duration="628000" />
+      <workItem from="1604219586838" duration="4491000" />
+      <workItem from="1604233353631" duration="2891000" />
+      <workItem from="1604245045370" duration="2569000" />
+      <workItem from="1604279590716" duration="79000" />
+      <workItem from="1604279714840" duration="128000" />
+      <workItem from="1604279898622" duration="8000" />
+      <workItem from="1604281491215" duration="8728000" />
+      <workItem from="1604294233592" duration="376000" />
+      <workItem from="1604294681741" duration="2000000" />
+      <workItem from="1604304175318" duration="4618000" />
+      <workItem from="1604309320198" duration="809000" />
+      <workItem from="1604312850853" duration="6096000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1060" height="466" key="DebuggerActiveHint" timestamp="1604314828594">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state width="1534" height="540" key="DebuggerActiveHint/0.0.2048.1122@0.0.2048.1122" timestamp="1604306273742" />
+    <state width="1060" height="466" key="DebuggerActiveHint/0.30.1500.970@0.30.1500.970" timestamp="1604314828594" />
+    <state x="726" y="279" key="FileChooserDialogImpl" timestamp="1604294597828">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="726" y="279" key="FileChooserDialogImpl/0.0.2048.1122@0.0.2048.1122" timestamp="1604294597828" />
+    <state x="532" y="271" key="FileChooserDialogImpl/0.30.1500.970@0.30.1500.970" timestamp="1604245397704" />
+    <state width="1458" height="319" key="GridCell.Tab.0.bottom" timestamp="1604330611755">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state width="2005" height="266" key="GridCell.Tab.0.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1604309818475" />
+    <state width="1458" height="319" key="GridCell.Tab.0.bottom/0.30.1500.970@0.30.1500.970" timestamp="1604330611755" />
+    <state width="1458" height="319" key="GridCell.Tab.0.center" timestamp="1604330611754">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state width="2005" height="266" key="GridCell.Tab.0.center/0.0.2048.1122@0.0.2048.1122" timestamp="1604309818475" />
+    <state width="1458" height="319" key="GridCell.Tab.0.center/0.30.1500.970@0.30.1500.970" timestamp="1604330611754" />
+    <state width="1458" height="319" key="GridCell.Tab.0.left" timestamp="1604330611754">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state width="2005" height="266" key="GridCell.Tab.0.left/0.0.2048.1122@0.0.2048.1122" timestamp="1604309818475" />
+    <state width="1458" height="319" key="GridCell.Tab.0.left/0.30.1500.970@0.30.1500.970" timestamp="1604330611754" />
+    <state width="1458" height="319" key="GridCell.Tab.0.right" timestamp="1604330611754">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state width="2005" height="266" key="GridCell.Tab.0.right/0.0.2048.1122@0.0.2048.1122" timestamp="1604309818475" />
+    <state width="1458" height="319" key="GridCell.Tab.0.right/0.30.1500.970@0.30.1500.970" timestamp="1604330611754" />
+    <state width="1458" height="319" key="GridCell.Tab.1.bottom" timestamp="1604330611756">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.1.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1604308968341" />
+    <state width="1458" height="319" key="GridCell.Tab.1.bottom/0.30.1500.970@0.30.1500.970" timestamp="1604330611756" />
+    <state width="1458" height="319" key="GridCell.Tab.1.center" timestamp="1604330611755">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.1.center/0.0.2048.1122@0.0.2048.1122" timestamp="1604308968341" />
+    <state width="1458" height="319" key="GridCell.Tab.1.center/0.30.1500.970@0.30.1500.970" timestamp="1604330611755" />
+    <state width="1458" height="319" key="GridCell.Tab.1.left" timestamp="1604330611755">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.1.left/0.0.2048.1122@0.0.2048.1122" timestamp="1604308968341" />
+    <state width="1458" height="319" key="GridCell.Tab.1.left/0.30.1500.970@0.30.1500.970" timestamp="1604330611755" />
+    <state width="1458" height="319" key="GridCell.Tab.1.right" timestamp="1604330611755">
+      <screen x="0" y="30" width="1500" height="970" />
+    </state>
+    <state width="2005" height="379" key="GridCell.Tab.1.right/0.0.2048.1122@0.0.2048.1122" timestamp="1604308968341" />
+    <state width="1458" height="319" key="GridCell.Tab.1.right/0.30.1500.970@0.30.1500.970" timestamp="1604330611755" />
+    <state x="526" y="206" key="SettingsEditor" timestamp="1604294691572">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="526" y="206" key="SettingsEditor/0.0.2048.1122@0.0.2048.1122" timestamp="1604294691572" />
+    <state x="299" y="171" key="SettingsEditor/0.30.1500.970@0.30.1500.970" timestamp="1604279670689" />
+    <state width="1033" height="568" key="XDebugger.FullValuePopup" timestamp="1604304693795">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="1033" height="568" key="XDebugger.FullValuePopup/0.0.2048.1122@0.0.2048.1122" timestamp="1604304693795" />
+    <state width="756" height="491" key="XDebugger.FullValuePopup/0.30.1500.970@0.30.1500.970" timestamp="1604289054853" />
+    <state x="1198" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1604224077909">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="1198" y="262" width="672" height="678" key="search.everywhere.popup/0.0.2048.1122@0.0.2048.1122" timestamp="1604224077909" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Douban-Bronkape-Desktop.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Douban.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Douban.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/crawlerDouban$Douban_Bronkape_Desktop.coverage" NAME="Douban-Bronkape-Desktop Coverage Results" MODIFIED="1604283580410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/crawlerDouban$Douban.coverage" NAME="Douban Coverage Results" MODIFIED="1604319210395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
