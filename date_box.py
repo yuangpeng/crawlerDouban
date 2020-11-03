@@ -1,18 +1,18 @@
 # -----------------------------------------------------------------------
-# Douban.py
+# date_box.py
 # release date visualization
 # box visualization
 # -----------------------------------------------------------------------
-import pandas
 from pyecharts import options as opts
 import pyecharts
 import xlrd
 from Douban import userAgents
 import random
 import requests
+import re
 
-month = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-boxofMonth = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+numofMonth = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+boxofMonth = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 
 def getBox():
@@ -22,8 +22,30 @@ def getBox():
         r = requests.get(url, headers=headers)
         if r.status_code != 200:
             raise Exception(f"getBox() {r.status_code} errors! In the {num} pages!")
-        text = r.text
-        a =1
+        text = r.json()["html"]
+
+        pattern = re.compile('title=\\"(.*?)/', re.S)
+        nameofMovie = pattern.findall(text)
+        dateofMovie = []
+        for i in range(len(nameofMovie)):
+            if readDate(nameofMovie[i]) != 0:
+                dateofMovie.append(readDate(nameofMovie[i]))
+            else:
+                print(nameofMovie[i])
+        pattern = re.compile('<p class=\\"totalnum\\"><strong>(.*?)</strong>(亿|万)</p>', re.S)
+        boxofMovie = pattern.findall(text)
+        a = 1
+
+
+def readDate(nameofMovie):
+    workbook = xlrd.open_workbook("2019movies.xls")
+    table = workbook.sheet_by_index(0)
+    rowNum = table.nrows
+    for i in range(rowNum):
+        if nameofMovie == table.row(i)[0].value:
+            return int(table.row(i)[3].value[5:7])
+    return 0
+
 
 # read month from 2019movies.xls
 def readExcel():
@@ -46,7 +68,7 @@ def readExcel():
         dates[i] = dates[i][5:7]
     for i in range(len(dates)):
         mon = int(dates[i])
-        month[mon - 1] = month[mon - 1] + 1
+        numofMonth[mon - 1] = numofMonth[mon - 1] + 1
 
 
 def main():
@@ -56,7 +78,7 @@ def main():
     bar = (
         pyecharts.charts.Bar()
             .add_xaxis(xaxisMonth)
-            .add_yaxis("各月电影数量", month)
+            .add_yaxis("各月电影数量", numofMonth)
             .set_colors(['#FF6400'])
             .set_global_opts(title_opts=opts.TitleOpts(title="Correlation"))
     )
