@@ -12,7 +12,8 @@ bar = (
         .add_xaxis(names)
         .add_yaxis("票房", box)
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
-        .set_global_opts(xaxis_opts=opts.AxisOpts(axislabel_opts={"rotate": 20}))
+        .set_global_opts(
+        visualmap_opts=opts.VisualMapOpts(min_=0, max_=50), xaxis_opts=opts.AxisOpts(axislabel_opts={"rotate": 20}))
 )
 
 bar.render("10box.html")

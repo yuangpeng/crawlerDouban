@@ -2,7 +2,6 @@ import time
 import random
 import requests
 from Douban import userAgents
-from Douban import proxyList
 import csv, os
 import pandas as pd
 

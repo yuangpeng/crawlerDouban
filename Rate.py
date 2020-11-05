@@ -23,6 +23,7 @@ bar = (
         .add_xaxis(rate)
         .add_yaxis("各评分电影数量", rateNum)
         .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+        .set_global_opts(visualmap_opts=opts.VisualMapOpts(min_=0,max_=60))
 )
 
 bar.render("Rate.html")
