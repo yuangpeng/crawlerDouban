@@ -82,3 +82,4 @@ def city_distribution(cityName):
 content = read_csv()
 sex_distribution(gender)
 city_distribution(cityName)
+
