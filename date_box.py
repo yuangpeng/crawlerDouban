@@ -12,7 +12,7 @@ import requests
 import re
 
 numofMonth = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-boxofMonth = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+boxofMonth = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 
 def getBox():
@@ -28,13 +28,14 @@ def getBox():
         nameofMovie = pattern.findall(text)
         dateofMovie = []
         for i in range(len(nameofMovie)):
-            if readDate(nameofMovie[i]) != 0:
-                dateofMovie.append(readDate(nameofMovie[i]))
-            else:
-                print(nameofMovie[i])
+            dateofMovie.append(readDate(nameofMovie[i]))
         pattern = re.compile('<p class=\\"totalnum\\"><strong>(.*?)</strong>(亿|万)</p>', re.S)
         boxofMovie = pattern.findall(text)
-        a = 1
+        for i in range(len(dateofMovie)):
+            money = float(boxofMovie[i][0])
+            if boxofMovie[i][1] == "亿":
+                money = money * 10000
+            boxofMonth[dateofMovie[i]] = boxofMonth[dateofMovie[i]] + money
 
 
 def readDate(nameofMovie):
@@ -74,15 +75,35 @@ def readExcel():
 def main():
     getBox()
     readExcel()
-    xaxisMonth = ["Jan.", "Feb.", "Mar.", "Apr.", "May.", "June", "July,", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."]
+    xaxisMonth = ["Jan.", "Feb.", "Mar.", "Apr.", "May.", "June", "July", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."]
+    del boxofMonth[0]
     bar = (
         pyecharts.charts.Bar()
             .add_xaxis(xaxisMonth)
-            .add_yaxis("各月电影数量", numofMonth)
-            .set_colors(['#FF6400'])
-            .set_global_opts(title_opts=opts.TitleOpts(title="Correlation"))
+            .add_yaxis("各月电影数量", numofMonth, yaxis_index=1)
+            .extend_axis(yaxis=opts.AxisOpts(name="各月电影数量", type_="value", min_=0, max_=150, position="right",
+                                             axislabel_opts=opts.LabelOpts(formatter="{value} 部")))
+            .extend_axis(yaxis=opts.AxisOpts(type_="value", name="各月电影票房", min_=0.0, max_=1200000.0, position="left",
+                                             axislabel_opts=opts.LabelOpts(formatter="{value} 万元"),
+                                             splitline_opts=opts.SplitLineOpts(
+                                                 is_show=True, linestyle_opts=opts.LineStyleOpts(opacity=1)
+                                             )))
+            .set_global_opts(tooltip_opts=opts.TooltipOpts(trigger="axis", axis_pointer_type="cross"))
     )
-    bar.render()
+    barBox = (
+        pyecharts.charts.Bar()
+            .add_xaxis(xaxisMonth)
+            .add_yaxis(
+            "各月电影票房",
+            boxofMonth,
+            yaxis_index=2,
+            label_opts=opts.LabelOpts(is_show=False),
+        )
+    )
+    bar.overlap(barBox)
+    grid = pyecharts.charts.Grid()
+    grid.add(bar, opts.GridOpts(pos_left="20%", pos_right="20%"), is_control_axis_index=True)
+    grid.render("date_box.html")
 
 
 if __name__ == "__main__":
